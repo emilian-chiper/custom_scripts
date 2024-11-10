@@ -4,7 +4,7 @@
 sudo apt install build-essential cmake pkg-config libpthread-stubs0-dev -y
 
 # Install system packages 2
-sudo apt install unzip libtool libtool-bin gettext -y
+sudo apt install unzip libtool libtool-bin gettext brightnessctl -y
 
 # Install system packages 3
 sudo apt install curl htop lsof ccache ninja-build python3-pip dconf-editor nvidia-settings pavucontrol moreutils clangd -y
