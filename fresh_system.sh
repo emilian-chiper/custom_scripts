@@ -19,6 +19,7 @@ scripts=(
     "grab_dotfiles.sh"
     "alias_tmux.sh"
     "utilities.sh"
+    "install_gtk_theme.sh"
 )
 
 # Run each script in order
