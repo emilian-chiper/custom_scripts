@@ -1,13 +1,15 @@
 #!/bin/bash
 
+# Install zsh
+sudo apt install zsh
+zsh --version
+chsh -s $(which zsh)
+
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Install zsh autosuggestions
-sudo apt install zsh-autosuggestions
-
-# Enable autosuggestions in zshrc
+# Enable autosuggestions ins .zshrc
 echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
-# Reload zsh config
+# Reload .zshrc
 source ~/.zshrc
