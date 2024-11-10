@@ -17,6 +17,7 @@ scripts=(
     "install_creative_suite.sh"
     "install_new_shell.sh"
     "grab_dotfiles.sh"
+    "grab_wallpapers.sh"
     "alias_tmux.sh"
     "utilities.sh"
     "install_gtk_theme.sh"
