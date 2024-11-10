@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Ensure we're in the home directory
+cd
+
 # Download dotfiles
 git clone git@github.com:emilian-chiper/dotfiles.git
 
